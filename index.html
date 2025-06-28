@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay"></div>
+
+  <main class="login-container">
+    <div class="logo">
+      <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" 
+        alt="Netflix Logo" 
+      />
+    </div>
+
+    <h1>Sign In</h1>
+
+    <form>
+      <div class="input-field">
+        <input type="email" placeholder="Email or phone number" required />
+      </div>
+      <div class="input-field">
+        <input type="password" placeholder="Password" required />
+      </div>
+      <button class="btn" type="submit">Sign In</button>
+
+      <div class="options">
+        <label>
+          <input type="checkbox" /> Remember me
+        </label>
+        <a href="#">Need help?</a>
+      </div>
+    </form>
+
+    <div class="alt-signin">
+      <span class="or-divider">OR</span>
+      <button type="button" class="btn-alt">Use a sign-in code</button>
+    </div>
+
+    <div class="forgot-password">
+      <a href="#">Forgot password?</a>
+    </div>
+
+    <div class="signup">
+      New to Netflix?
+      <a href="#">Sign up now</a>.
+    </div>
+
+    <div class="recaptcha-note">
+      This page is protected by Google reCAPTCHA to ensure you’re not a bot.
+      <a href="#">Learn more.</a>
+    </div>
+
+    <footer class="footer">
+      <a href="#">FAQ</a>
+      <a href="#">Help Center</a>
+      <a href="#">Terms of Use</a>
+      <a href="#">Privacy</a>
+    </footer>
+  </main>
+</body>
+</html>
